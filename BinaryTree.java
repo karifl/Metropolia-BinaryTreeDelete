@@ -174,7 +174,7 @@ public class BinaryTree {
         if(node.left()!=null){
                          System.out.println("Solmu: " + root.getData());
                          System.out.println("Vasempaan..");
-                        return root.left().getChild(node);
+                        return node.left().getChild(node);
     }else{
         Node temp = node;
   
